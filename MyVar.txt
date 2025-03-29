@@ -11,6 +11,8 @@ git config --global core.autocrlf true
 git config --global core.safecrlf warn
 
 ответ 2
+
+ВторойОтвет
 сначала создаём директорию и переходим в неё и создаём файл 
 mkdir work
 cd work
@@ -21,4 +23,3 @@ git init
 
 далее добавляем ранее созданный файл и коммитим его
 git add hello.html
-git commit -m "Initial Commit"
