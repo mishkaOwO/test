@@ -1,0 +1,10 @@
+Нужно связать git bash со своим аккаунтом git с помощью команд 
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+
+назвать ветку по умолчанию
+git config --global init.defaultBranch main
+
+настроить корректную обработку окончаний строк
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
