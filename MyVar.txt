@@ -1,0 +1,11 @@
+сначала создаём директорию и переходим в неё и создаём файл 
+mkdir work
+cd work
+touch hello.html
+
+далее инициализируем репозиторий
+git init
+
+далее добавляем ранее созданный файл и коммитим его
+git add hello.html
+git commit -m "Initial Commit"
